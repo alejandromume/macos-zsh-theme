@@ -16,7 +16,7 @@ This theme adapts your console to the MacOS, a clean and minimalist terminal.
 
 ## Format
  
- *`[desktop-name]`*:*`[current_dir]`* *`[user-name]`*$ 
+ *`[desktop-name]`*:*`[current-dir]`* *`[user-name]`*$ 
  
  ![Git](https://raw.githubusercontent.com/alejandromume/macos-zsh-theme-media/main/ezgif-1-d25fc7015a19.gif)
 
