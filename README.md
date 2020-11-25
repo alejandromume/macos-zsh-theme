@@ -16,5 +16,5 @@ This theme adapts your console to the MacOS, a clean and minimalist terminal.
 
 ## Format
  
- [desktop-name]:[current_dir] [user-name]$ 
+ *`[desktop-name]`*:*`[current_dir]`* *`[user-name]`*$ 
 
