@@ -14,3 +14,7 @@ This theme adapts your console to the MacOS, a clean and minimalist terminal.
  2. Open your `.zshrc`
  3. Change your `ZSH_THEME` to *`macos-zsh-theme/macos-theme`* 
 
+## Format
+ 
+ [desktop-name]:[current_dir] [user-name]$ 
+
