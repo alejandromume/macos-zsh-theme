@@ -1,4 +1,4 @@
-ll=$(last -1 -R $USER | awk 'NR==1 {print $4, $3, $5, $6, "on", $2}')
+ll=$(last -1 -R $USER | awk 'NR==1 {print $4, $3, $5, strftime("%T"), "on", $2}')
 echo "Last login: $ll"
 export PS1="Last login: [$ll]"'\n\h:\W\$ '
 
