@@ -11,7 +11,7 @@ git_prompt() {
    echo "$(git_prompt_info)"
 }
 
-PROMPT='%n@%m ~ %% '
+PROMPT='%n@%m %1~ %% '
 # RPROMPT='%{$FG[012]%} ► %{$fg[cyan]%}$(git_prompt_info)%{$FG[012]%} ◄ %{$reset_color%}';
 
 RPROMPT='$(git_prompt)'
