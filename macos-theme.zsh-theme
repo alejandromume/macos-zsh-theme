@@ -1,6 +1,6 @@
-ll=$(last -1 -R  $USER | head -1 | cut -c 23-)
-echo "Last Login: $ll"
-export PS1="Last Login: [$ll]"'\n\h:\W\$ '
+ll=$(last -1 -R $USER | awk 'NR==1 {print $4, $3, $5, strftime("%T"), "on", $2}')
+echo "Last login: $ll"
+export PS1="Last login: [$ll]"'\n\h:\W\$ '
 
 ZSH_THEME_GIT_PROMPT_PREFIX="("
 ZSH_THEME_GIT_PROMPT_SUFFIX=")"
@@ -11,10 +11,7 @@ git_prompt() {
    echo "$(git_prompt_info)"
 }
 
-PROMPT='%{$fg[white]%}%m:%1~ %n$ '
+PROMPT='%n@%m %1~ %% '
 # RPROMPT='%{$FG[012]%} ► %{$fg[cyan]%}$(git_prompt_info)%{$FG[012]%} ◄ %{$reset_color%}';
 
 RPROMPT='$(git_prompt)'
-
-
-

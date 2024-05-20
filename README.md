@@ -20,7 +20,7 @@ You can find this theme in the official [**Github Wiki**](https://github.com/ohm
 
 ## Format
  
- *`[desktop-name]`*:*`[current-dir]`* *`[user-name]`*$ 
+ *`[user-name]`*@*`[desktop-name]`* *`[current-dir]`* %
  
  ![Git](https://raw.githubusercontent.com/alejandromume/macos-zsh-theme-media/main/ezgif-1-d25fc7015a19.gif)
 
